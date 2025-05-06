@@ -2,18 +2,18 @@
 session_start();
 include 'dbConnection.php';
 
-// Check if the user is logged in
+
 if (!isset($_SESSION['user_id'])) {
     header('Location: signin.php');
     exit();
 }
 
-// Ensure the database connection is valid
+
 if (!$conn) {
     die("Database connection failed: " . $conn->connect_error);
 }
 
-// Get the logged-in user (tutor) ID from the session
+
 $tutor_id = $_SESSION['user_id'];
 
 // Handle form submission
