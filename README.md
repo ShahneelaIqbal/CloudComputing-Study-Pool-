@@ -49,9 +49,3 @@ A web-based academic assistance platform built with **PHP**, **HTML/CSS**, and *
 ---
 
 
-License
-This project is for educational purposes only and is not affiliated with StudyPool.
-
-Notes
-Stripe payment files are excluded from the repository for security reasons.
-
