@@ -35,7 +35,6 @@ A web-based academic assistance platform built with **PHP**, **HTML/CSS**, and *
 
 - **Note:** Payment integration is handled via **Stripe Checkout API**
 - **Sensitive payment logic and keys are NOT uploaded to GitHub** for security
-- Stripe files are referenced but ignored via `.gitignore`
 
 ---
 
